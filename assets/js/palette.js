@@ -10,6 +10,6 @@ jQuery(document).ready(function($) {
 
 	$('.palette-toggle').on('click', function(e) {
 		e.preventDefault();
-		$(this).closest('.palette').toggleClass('open');
+		$(this).closest('.palette-wrapper').toggleClass('open');
 	});
 });
