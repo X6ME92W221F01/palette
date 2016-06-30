@@ -31,6 +31,10 @@
 					<?php endif; ?>
 				</div><!-- /.palette-box -->
 			<?php endforeach; ?>
+
+			<a class="palette-toggle">
+				<span><?php echo esc_html__( 'Toggle', 'palette' ); ?></span>
+			</a><!-- /.palette-toggle -->
 		</div><!-- /.palette-inner -->
 	</div><!-- /.palette -->
 </div><!-- /.palette -->

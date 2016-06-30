@@ -7,4 +7,9 @@ jQuery(document).ready(function($) {
 		var el = $(this);
 		$(el.data('selector')).attr('href', el.attr('href'));
 	});
+
+	$('.palette-toggle').on('click', function(e) {
+		e.preventDefault();
+		$(this).closest('.palette').toggleClass('open');
+	});
 });
